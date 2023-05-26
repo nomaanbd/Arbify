@@ -4,6 +4,9 @@
     </IfModule>
 
     RewriteEngine On
+    
+    # Multiple laravel sites on sub directory
+    # RewriteBase /subdir/
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
